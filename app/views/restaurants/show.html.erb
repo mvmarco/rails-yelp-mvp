@@ -1,0 +1,16 @@
+<h1>Check <%= @restaurant.name %></h1>
+
+<p>
+  Find us at:
+  <%= @restaurant.address %>
+</p>
+
+<p>
+  We are: <%= @restaurant.category %> restaurant!
+</p>
+
+<p>
+  contact us at: <%= @restaurant.phone_number %>
+</p>
+
+<%= link_to "got to homepage", restaurants_path %>
